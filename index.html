@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1</title>
+</head>
+<body style="background: rgb(226, 228, 250);"">
+    <table align = "Center">
+        <thead><tr><td style="background: rgb(6,14,131); background: linear-gradient(0deg, rgb(6, 17, 170) 0%, rgb(121, 91, 226) 100%)" align="center"><h1 style="color:white">SIGN IN</h1></td></tr></thead>
+        <tfoot><tr><td>Already a member? <button type="submit">Log in</button></td></tr></tfoot>
+        <tbody cellpadding="20px">
+            <tr>
+            <td>
+            <form><br>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter email" required><br><br>
+                <label for="pwd">Password:</label>
+                <input type="password" id="pwd" placeholder="Enter password" required><br><br>
+                <label for="age">Age:</label>
+                <input type="text" id="age" placeholder="Enter age"><br><br>
+                <label for="age">Mobile No.:</label>
+                <input type="tel" id="phone" pattern="[+]{1}[0-9]{11,14}" value="+91" placeholder="+91-XXXXXXXXXX"><br><br>
+                <label for="city">City:</label>
+                <input type="text" id="city" placeholder="Enter city" required><br><br>
+                <label for="education">Educational Qualification</label>
+                <select id="education" name="education">
+                  <option>Undergraduate</option>
+                  <option>Graduate</option>
+                  <option>School (10+2)</option>
+                  <option>PhD</option>
+                </select><br><br>
+                <label><input type="checkbox"> Remember me</label><br><br>
+                <button type="submit">Submit</button><br><br>
+            </form>
+            </td>
+            </tr>
+        </tbody>
+    </table>
+    </body>
+    </html>
